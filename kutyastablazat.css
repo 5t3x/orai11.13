@@ -3,7 +3,8 @@ tr:nth-child(odd) {
     
 }
 table {
-    width: 25%;
+    width: 50%;
+    text-align: center;
 }
 th {
     background-color: white;

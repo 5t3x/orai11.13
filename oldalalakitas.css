@@ -10,7 +10,7 @@ tr:nth-child(odd) {
     
 }
 table {
-    width: 25%;
+    width: 100%;
 }
 th {
     background-color: white;
@@ -26,4 +26,25 @@ li {
 }
 html {
     margin: auto;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "h   h   h"
+    "n   a   as"
+    "f   f   f";
+}
+header {
+    grid-area: h;
+}
+footer {
+    grid-area: f;
+    text-align: center;
+    margin-top: 15px;
+}
+aside {
+    grid-area: as;
+    text-align: center;
+    margin-top: 20px;
 }
