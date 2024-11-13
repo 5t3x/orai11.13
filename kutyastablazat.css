@@ -2,3 +2,10 @@ tr:nth-child(odd) {
     background-color: darkgray;
     
 }
+table {
+    width: 25%;
+    margin: auto;
+}
+th {
+    background-color: white;
+}
