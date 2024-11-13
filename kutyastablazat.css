@@ -4,8 +4,19 @@ tr:nth-child(odd) {
 }
 table {
     width: 25%;
-    margin: auto;
 }
 th {
     background-color: white;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+li {
+    list-style: none;
+}
+html {
+    margin: auto;
 }
