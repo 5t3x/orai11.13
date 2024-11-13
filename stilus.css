@@ -1,0 +1,26 @@
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;/*cellak kozotti resek eltuntetese*/
+}
+table {
+    width: 80%;
+    margin: auto; /*oldal kozepere tetszoleges elemet lehet allitani*/
+}
+table>thead>tr {
+    border: 5px solid black;
+}
+th {
+    background-color: darkred;
+    color: white;
+}
+tr:nth-child(odd) { /*minden masodik sor a tr tagek kozul*/
+    background-color: darkgrey;
+    color: darkred;
+}
+.osszevont {
+    background-color: rgb(252, 108, 108);
+}
+.reszponzivtablazat {
+    width: 100%;
+    overflow-x: scroll; /* gorgetheto ha nem fer ki egy bizonyos ertek alatt */
+}
