@@ -5,3 +5,25 @@ Ha fele viszem az egeret akkor valtozzon a hatterszine
 Htmelek letrehozasa a menuk alapjan
 Keszitsd el a mintanak megfelelo tablazatot az article tagbe, uj tablazatformazas cs kell bele, 
 de ugyanez az oldalalakitas.css */
+tr:nth-child(odd) {
+    background-color: darkgray;
+    
+}
+table {
+    width: 25%;
+}
+th {
+    background-color: white;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+li {
+    list-style: none;
+}
+html {
+    margin: auto;
+}
